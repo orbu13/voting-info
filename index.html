@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="JS-info/scripts.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="age">If you want to vote, we need to check your age. If you are over 18, we will give you the option to vote.</label>
+            <input id="age" type="number">
+            <button type="submit">Submit!</button>
+        </form>
+    </div>
+    <div id="atage" class="hidden">
+        <h1 id="congratsOn18"></h1>
+        <h1>Voter registration info:</h1>
+            <p>Please go <a href="https://www.multco.us/elections/register-vote-or-update-your-registration-here">here</a>to learn about voting in multinomah county.</p>
+    </div>
+    <div id="underage" class="hidden">
+        <h1>Sorry you can't vote yet!</h1>
+            <p>If you're excited about your future civic duties, please go <a href="https://www.multco.us/elections/register-vote-or-update-your-registration-here">here</a>to learn about voting in multinomah county.</p>
+    </div>
+</body>
+</html>
